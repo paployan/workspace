@@ -1,0 +1,30 @@
+.project {
+		padding: 0.8rem 1.6rem;
+	&__container {
+		display: flex;
+		flex-direction: row;
+		border: 1px solid $color-border;
+		border-radius: 8px;
+		padding: 5px;
+		width: 350px;
+		margin-bottom: 15px;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__element {
+		color: $accent-7;
+		font-size: 18px;
+		padding-left: 8px;
+		font-weight: 500;
+		align-items: center;
+    display: flex;
+	& > span {
+		margin-left: 10px;
+	}
+	} &__icon {
+		cursor: pointer;
+	}
+	&--error {
+		color: $color-error;
+	}
+}
