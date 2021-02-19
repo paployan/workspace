@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3000/api";
+const API_URL = "https://workspace-peach.vercel.app/api";
 
 export const GET_PROJECTS = "GET_PROJECTS";
 export const SET_PROJECTS = "SET_PROJECTS";
